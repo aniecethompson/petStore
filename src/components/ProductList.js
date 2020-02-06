@@ -1,12 +1,32 @@
 import React, { Component } from 'react';
-// import Product from './Product';
+import Product from './Product';
+import Title from './Title';
+import { ProductConsumer} from "../context";
 
 class ProductList extends Component {
+
     render() {
+        
         return (
-            <div>
-                <h3>Hello from Product List</h3>
-            </div>
+           <React.Fragment>
+               <div className="py-5">
+                   <div className="container">
+                    <Title name="our" title="products"/>
+                    <div className="row">
+                    <ProductConsumer>
+                        {value => {
+                           return value.products.map(product => {
+                            //    console.log(product)
+                               return <Product key={product.id} product={product}/>;
+                           })
+                        
+                        }}
+                    </ProductConsumer>
+                    </div>
+                   </div>
+
+               </div>
+           </React.Fragment>
         );
     }
 }
