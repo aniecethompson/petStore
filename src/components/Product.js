@@ -6,6 +6,7 @@ import PropTypes from "prop-types";
 
 export default class Product extends Component {
     render() {
+
         const {id, title, img, price, inCart} = this.props.product
         return (
             <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
@@ -102,9 +103,9 @@ const ProductWrapper = styled.div`
     bottom:0;
     right: 0;
     padding:0.2rem 0.4rem;
-    background: var(--lightBlue);
+    background: var(--lightPurple);
     boder: none;
-    color: var(--mainWhite);
+    color: var(--mainColor);
     font-size: 1.4rem;
     border-radius: 0.5rem 0 0 0;
     transform: translate(100%, 100%);

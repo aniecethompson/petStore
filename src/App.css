@@ -1,14 +1,14 @@
 :root{
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
-  --mainWhite: #f3f3f3;
+  --mainBlue: #98C8E8;
+  --lightPurple: #B88FC8;
+  --mainColor: #F8D8C8;
   --mainDark: #232528;
-  --mainYellow: #ffa400;
+  --mainPink: #BB688E;
 }
 
 body{
   font-family: "Oswald", sans-serif !important;
-  background-color: var(--mainWhite)!important;
+  background-color: var(--mainColor)!important;
   color: var(--mainDark)
 }
 
@@ -23,7 +23,7 @@ body{
 }
 
 .text-bright{
-  color: var(--lightBlue)
+  color: var(--lightPurple)
 }
 
 .btn-black{
@@ -38,11 +38,11 @@ body{
 
 .btn-black:hover{
   background: var(--mainDark) !important;
-  color: var(--mainWhite) !important;
+  color: var(--mainColor) !important;
 }
 
 .cart-icon{
   cursor: pointer;
   font-size: 1.2rem;
-  color: var(--mainYellow)
+  color: var(--mainPink)
 }
