@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import { ButtonContainer } from "./Button";
-// import {logo} from '../tk_logo.png';
 
 
 class NavBar extends Component {
