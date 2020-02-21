@@ -1,8 +1,8 @@
 # Tails Kingdom!
 
-An ecommerce pet supplies store in which you can browse necessities for either dogs or cats, and add items to your cart where you can manipulate the quantity of an item. Credit card processing was made possible using the PayPal API. Thank you for visiting!
+A pet supplies e-commerce website in which the user can browse necessities for either dogs or cats, and add items to their cart where the user can manipulate the quantity of an item. Credit card processing was made possible using the PayPal API. Thank you for visiting!
 
-![store image](pet-store/public/store_img.png)
+Want to check out how the application works? Video demo available here: https://youtu.be/oRKOU9TJC9Q
 
 
 ## Languages and Frameworks
